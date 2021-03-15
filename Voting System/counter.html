@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISC Voting System</title>
+    <link rel="icon" type="image/png"  href="images/logo.png">
+    <link rel="stylesheet" href="counter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    
+  <script src="homepage.js"></script>
+  
+  </head>
+  <body>
+
+    <input type="checkbox" id="check">
+    <!--header area start-->
+    <header>
+      <label for="check">
+        <i class="fas fa-bars" id="sidebar_btn"></i>
+      </label>
+      <div class="left_area">
+        <h3><span>ISC</span> Voting System</h3>
+      </div>
+
+    </header>
+    <!--header area end-->
+    <!--mobile navigation bar start-->
+    <div class="mobile_nav">
+      <div class="nav_bar">
+        <i class="fa fa-bars nav_btn"></i>
+      </div>
+      <div class="mobile_nav_items">
+        <a href="homepage.html"><i class="fas fa-desktop"></i><span>Dashboard</span></a>
+        <a href="voteguide.html"><i class="fas fa-info-circle"></i><span>How To Vote</span></a>
+        <a href="voters.html"><i class="fa fa-list"></i><span>Voters List</span></a>
+        <a href="candidates.html"><i class="fa fa-users"></i><span>Candidates</span></a>
+        <a class="current" href="counter.html"><i class="fas fa-info-circle"></i><span>Vote Counter</span></a>
+        <a href="#"><i class="fas fa-sign-out-alt"></i><span>Logout</span></a>
+      </div>
+    </div>
+    <!--mobile navigation bar end-->
+    <!--sidebar start-->
+    <div class="sidebar">
+      <div class="profile_info">
+        <img src="images/profile_image.svg" class="profile_image" alt="">
+        <h4>User</h4>
+      </div>
+      <a href="homepage.html"><i class="fas fa-desktop"></i><span>Dashboard</span></a>
+      <a  href="voteguide.html"><i class="fas fa-info-circle"></i><span>How To Vote</span></a>
+      <a  href="voters.html"><i class="fa fa-list"></i><span>Voters List</span></a>
+      <a  href="candidates.html"><i class="fa fa-users"></i><span>Candidates</span></a>
+      <a class="current"  href="counter.html"><i class="fas fa-info-circle"></i><span>Vote Counter</span></a>
+      <a href="#"><i class="fas fa-sign-out-alt"></i><span>Logout</span></a>
+  
+    </div>
+  </div>
+    <!--sidebar end-->
+
+    <div class="content">
+    <!----  <div class="row">
+          <div class="card-01">
+            
+            
+              <div class="card-content">
+                <h3>Senator</h3>
+              
+        
+                
+              
+            
+              </div>
+            
+          </div>
+          <div class="card-01">
+            
+              <div class="card-content">
+                <h3>Mayor</h3>
+              
+            
+              </div>
+          </div>
+          
+          <div class="card-01">
+            
+              <div class="card-content">
+                <h3>Vice-Mayor</h3>
+              
+                
+              </div>
+          </div>
+          
+        </div>
+
+        <div class="row">
+
+
+          <div class="card-02">
+              <div class="card-content">
+                  <h3>IT COUNCILOR</h3>
+              </div>
+          </div>
+
+          <div class="card-02">
+              <div class="card-content">
+                  <h3>CS COUNCILOR</h3>
+              </div>
+          </div>
+
+        </div>
+
+      -->
+
+      <h1 class="link-header">COUNTER</h1>
+
+        <div class="card-body color1">
+          <div class="float-left">
+              <h3>
+                  <span class="currency"></span>
+                  <span class="count">1000</span> 
+                  <p>Voters </p>
+              </h3>
+      
+          </div>
+          <div class="float-right">
+              <i class="pe-7s-cart"></i>
+          </div>
+      </div>
+
+
+      <div class="card-body color1">
+        <div class="float-left">
+            <h3>
+                <span class="currency"></span>
+                <span class="count">432</span> 
+            </h3>
+            <p>Votes Casted </p>
+        </div>
+        <div class="float-right">
+            <i class="pe-7s-cart"></i>
+        </div>
+    </div>
+      <!--Widget End-->
+      <!--Widget Start-->
+      <div class="card-body color2">
+          <div class="float-left">
+              <h3>
+                  <span class="count">432</span>
+              </h3>
+              <p>Total Votes</p>
+          </div>
+          <div class="float-right">
+              <i class="pe-7s-users"></i>
+          </div>
+      </div>
+      <!--Widget End-->
+      <!--Widget Start-->
+      <div class="card-body color3">
+          <div class="float-left">
+              <h3>
+                  <span class="count">568</span>
+              </h3>
+              <p>Not Voted Yet</p>
+          </div>
+          <div class="float-right">
+              <i class="pe-7s-browser"></i>
+          </div>
+      </div>
+
+
+
+      
+      <!--Widget End-->
+
+
+      <div class="card-body color1" style="background-color:  #1E56A0;">
+        <div class="float-left">
+            <h3>
+                <span class="currency"></span>
+                <span class="count">60</span> 
+                <p>Fourth Years Voted </p>
+            </h3>
+    
+        </div>
+        <div class="float-right">
+            <i class="pe-7s-cart"></i>
+        </div>
+    </div>
+
+
+    <div class="card-body color1" style="background-color: #1E56A0;">
+      <div class="float-left">
+          <h3>
+              <span class="currency"></span>
+              <span class="count">43</span> 
+          </h3>
+          <p>3rd Years Voted </p>
+      </div>
+      <div class="float-right">
+          <i class="pe-7s-cart"></i>
+      </div>
+  </div>
+    <!--Widget End-->
+    <!--Widget Start-->
+    <div class="card-body color2" style="background-color: #1E56A0;">
+        <div class="float-left">
+            <h3>
+                <span class="count">32</span>
+            </h3>
+            <p>2nd Years Voted</p>
+        </div>
+        <div class="float-right">
+            <i class="pe-7s-users"></i>
+        </div>
+    </div>
+    <!--Widget End-->
+    <!--Widget Start-->
+    <div class="card-body color3" style="background-color:  #1E56A0;">
+        <div class="float-left">
+            <h3>
+                <span class="count">68</span>
+            </h3>
+            <p>First Years Voted</p>
+        </div>
+        <div class="float-right">
+            <i class="pe-7s-browser"></i>
+        </div>
+        
+    </div>
+
+
+    
+    <div class="card-body color1">
+      <div class="float-left" >
+          <h3>
+              <span class="currency"></span>
+              <span class="count">120</span> 
+              <p>IT Voters </p>
+          </h3>
+  
+      </div>
+      <div class="float-right">
+          <i class="pe-7s-cart"></i>
+      </div>
+  </div>
+
+
+  <div class="card-body color1">
+    <div class="float-left">
+        <h3>
+            <span class="currency"></span>
+            <span class="count">96</span> 
+        </h3>
+        <p>CS Voters</p>
+    </div>
+    <div class="float-right">
+        <i class="pe-7s-cart"></i>
+    </div>
+</div>
+      <script type="text/javascript">
+      $('.count').each(function(){
+          $(this).prop('Counter',0).animate({
+              Counter: $(this).text()
+          }, {
+              duration:4000,
+              easing:'swing',
+              step: function(now){
+                  $(this).text(Math.ceil(now));
+              }
+          });
+      });
+      </script>
+
+
+
+
+
+
+
+
+    </div>
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('.nav_btn').click(function(){
+        $('.mobile_nav_items').toggleClass('active');
+      });
+    });
+
+
+
+ 
+    
+    </script>
+
+
+
+  </body>
+</html>
+                           
